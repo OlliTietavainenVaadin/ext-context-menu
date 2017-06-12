@@ -1,0 +1,24 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+ext-context-menu-demo/src/main/webapp/VAADIN/widgetsets/
+
+styles.css
+styles.scss.cache
+
+nb-configuration.xml
+
+# IDE metadata
+.project
+.classpath
+.settings/
+*.iml
+
+target/
