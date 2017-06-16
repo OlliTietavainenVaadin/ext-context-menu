@@ -58,17 +58,23 @@ public class AbstractExtMenu implements ExtMenu {
 
     @Override
     public ExtMenuItem addItem(String caption, boolean link, String url) {
+        return addItem(caption, link, url, "_blank");
+
+    }
+
+    @Override
+    public ExtMenuItem addItem(String caption, boolean link, String url, String target) {
         if (caption == null) {
             throw new IllegalArgumentException("caption cannot be null");
         }
         ExtMenuItem newItem = new ExtMenuItemImpl(caption, null, null);
         newItem.setLink(link);
         newItem.setUrl(url);
+        newItem.setTarget(target);
         extMenuItems.add(newItem);
         markAsDirty();
 
         return newItem;
-
     }
 
     /*

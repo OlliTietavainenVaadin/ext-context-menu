@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ext-context-menu-addon/ext-context-menu.iml" filepath="$PROJECT_DIR$/ext-context-menu-addon/ext-context-menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ext-context-menu-demo/ext-context-menu-demo.iml" filepath="$PROJECT_DIR$/ext-context-menu-demo/ext-context-menu-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ext-context-menu-root.iml" filepath="$PROJECT_DIR$/ext-context-menu-root.iml" />
+      <module fileurl="file://C:\dev\IdeaProjects\ext-context-menu\vaadin-context-menu-addon\vaadin-context-menu.iml" filepath="C:\dev\IdeaProjects\ext-context-menu\vaadin-context-menu-addon\vaadin-context-menu.iml" />
+      <module fileurl="file://C:\dev\IdeaProjects\ext-context-menu\vaadin-context-menu-demo\vaadin-context-menu-demo.iml" filepath="C:\dev\IdeaProjects\ext-context-menu\vaadin-context-menu-demo\vaadin-context-menu-demo.iml" />
+    </modules>
+  </component>
+</project>

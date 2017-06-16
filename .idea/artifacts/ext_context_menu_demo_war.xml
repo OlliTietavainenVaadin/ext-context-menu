@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ext-context-menu-demo:war">
+    <output-path>$PROJECT_DIR$/ext-context-menu-demo/target</output-path>
+    <root id="archive" name="ext-context-menu-demo-0.2-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ext-context-menu-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

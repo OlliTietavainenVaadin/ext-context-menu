@@ -124,6 +124,7 @@ public class ExtContextExtMenu extends AbstractExtension implements ExtMenu {
             extMenuItemState.childItems = convertItemsToState(item.getChildren());
             extMenuItemState.link = item.isLink();
             extMenuItemState.url = item.getUrl();
+            extMenuItemState.target = item.getTarget();
 
             state.add(extMenuItemState);
         }
@@ -172,6 +173,11 @@ public class ExtContextExtMenu extends AbstractExtension implements ExtMenu {
     @Override
     public ExtMenuItem addItem(String caption, boolean link, String url) {
         return menu.addItem(caption, link, url);
+    }
+
+    @Override
+    public ExtMenuItem addItem(String caption, boolean link, String url, String target) {
+        return menu.addItem(caption, link, url, target);
     }
 
     @Override

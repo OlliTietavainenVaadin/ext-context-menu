@@ -54,6 +54,16 @@ public interface ExtMenu extends Serializable {
     public abstract ExtMenuItem addItem(String caption, boolean link, String url);
 
     /**
+     * add a new item to the menu bar. Add with link to open a url.
+     * @param caption the text for the menu item
+     * @param link the menu item is a link
+     * @param url url for the link
+     * @param target target for the link
+     * @return
+     */
+    public abstract ExtMenuItem addItem(String caption, boolean link, String url, String target);
+
+    /**
      * Add an item before some item. If the given item does not exist the item
      * is added at the end of the menu. Icon and command can be null, but a
      * caption must be given.

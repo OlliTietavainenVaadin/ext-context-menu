@@ -32,6 +32,7 @@ class ExtMenuItemImpl implements Serializable, ExtMenuItem {
     private boolean checkable = false;
     private boolean checked = false;
     private boolean link = false;
+    private String target = "_blank";
 
     public void setLink(boolean link) {
         this.link = link;
@@ -39,6 +40,10 @@ class ExtMenuItemImpl implements Serializable, ExtMenuItem {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public void setTarget(String target) {
+        this.target = target;
     }
 
     private String url = "";
@@ -447,6 +452,11 @@ class ExtMenuItemImpl implements Serializable, ExtMenuItem {
     @Override
     public String getStyleName() {
         return styleName;
+    }
+
+    @Override
+    public String getTarget() {
+        return target;
     }
 
     /*

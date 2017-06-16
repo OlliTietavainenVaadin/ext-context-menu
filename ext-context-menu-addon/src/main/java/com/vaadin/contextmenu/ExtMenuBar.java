@@ -457,6 +457,11 @@ public class ExtMenuBar extends AbstractComponent
     }
 
     @Override
+    public ExtMenuItem addItem(String caption, boolean link, String url, String target) {
+        return extMenu.addItem(caption, link, url, target);
+    }
+
+    @Override
     public ExtMenuItem addItemBefore(String caption, Resource icon,
             Command command, ExtMenuItem itemToAddBefore) {
         return extMenu.addItemBefore(caption, icon, command, itemToAddBefore);

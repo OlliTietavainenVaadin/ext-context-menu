@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ext-context-menu" />
+        <module name="ext-context-menu-demo" />
+        <module name="vaadin-context-menu" />
+        <module name="vaadin-context-menu-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ext-context-menu" target="1.8" />
+      <module name="ext-context-menu-demo" target="1.8" />
+      <module name="ext-context-menu-root" target="1.5" />
+      <module name="vaadin-context-menu" target="1.8" />
+      <module name="vaadin-context-menu-demo" target="1.8" />
+      <module name="vaadin-context-menu-root" target="1.5" />
+      <module name="vaadin-context-menu-vaadin7-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

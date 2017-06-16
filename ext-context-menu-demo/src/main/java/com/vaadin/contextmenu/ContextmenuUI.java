@@ -36,7 +36,8 @@ public class ContextmenuUI extends UI {
     }
 
     private void fillMenu(ExtMenu extMenu) {
-        extMenu.addItem("Link", true, "https://www.vaadin.com");
+        extMenu.addItem("Link, opens in a new window (target _blank)", true, "https://www.vaadin.com");
+        extMenu.addItem("Link, opens in this window (target _self)", true, "https://www.google.com", "_self");
         extMenu.addItem("Not a link", e -> Notification.show("clicked on 'Not a link'"));
 
 

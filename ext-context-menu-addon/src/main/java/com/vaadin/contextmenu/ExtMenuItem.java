@@ -161,6 +161,8 @@ public interface ExtMenuItem extends Serializable {
     void setUrl(String url);
 
     void setLink(boolean link);
+
+    void setTarget(String target);
     /**
      * Remove the first occurrence of the item.
      * 
@@ -191,6 +193,8 @@ public interface ExtMenuItem extends Serializable {
     String getUrl();
 
     String getStyleName();
+
+    String getTarget();
 
     /**
      * Sets the items's description. See {@link #getDescription()} for more

@@ -114,7 +114,7 @@ public class ExtContextMenuConnector extends AbstractExtensionConnector {
                 if (contextMenuWidget.isAttached()) {
 
                     if (extMenuItemState.link) {
-                        Window.open(extMenuItemState.url, "_blank", "");
+                        Window.open(extMenuItemState.url, extMenuItemState.target, "");
                     }
                     dummyRootMenuBar.hideChildren();
                     itemSelected(extMenuItemState.id);
